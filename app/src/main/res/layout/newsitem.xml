@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/news"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/imgNews"
+
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imgNews"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Author"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/titleView"
+        android:layout_marginLeft="5dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        />
+
+</RelativeLayout>
