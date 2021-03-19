@@ -1,1 +1,3 @@
 # NewsApp
+
+Created the NewsAPP.
